@@ -1,0 +1,6 @@
+###
+POST http://localhost:8085/myapi/upload-file
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="file"; filename="3.txt"
